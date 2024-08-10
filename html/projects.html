@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./../css/style.css">
+  <link rel="stylesheet" href="./../css/homeresponse.css">
+  <link rel="stylesheet" href="./../css/serviceresponse.css">
+  <script src="https://kit.fontawesome.com/7504e76a87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!----------projects section------>
+  <div id="projects">
+    <div class="container">
+      <nav>
+        <h1 class="name-heading"><span style="color:red">A</span>lfadiya <span style="color:red">N</span>oushad.</h1>
+        <ul id="sidemenu">
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./skills.html">Skills</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <i class="fas fa-xmark" onclick="closemenu()"></i>           
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <h1 class="sub-title" style="margin-top:25px">My Projects</h1>
+      <div class="project-list" id="projectList">
+        <div class="project">
+          <img
+            src="./../images/todos.webp"
+            alt="todolist image"
+          />
+          <div class="layer">
+            <h3>To-Do App</h3>
+            <p>
+              Help users to efficiently manage their tasks 
+              by allowing them to add, delete,save and mark items as 
+              completed. 
+            </p>
+            <a href="https://todoapp9048.ccbp.tech/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <p>Technologies Used : <br/>HTML,CSS,JAVASCRIPT,BOOTSTRAP</p>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            src="./../images/foods.webp"
+            alt="food image"
+            />
+          <div class="layer">
+            <h3>Food Munch</h3>
+            <p>
+              Offers details about the restaurant, 
+              including its menu, specials, pricing, 
+              and contact information, allowing customers 
+              to easily explore and plan their dining experience.
+            </p>
+            <a href="https://alfafoodmunch.ccbp.tech/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <p>Technologies Used : <br/>HTML,CSS,BOOTSTRAP</p>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            src="./../images/ecommerces.webp"
+            alt="ecommerce image"
+            />
+          <div class="layer">
+            <h3>E commerce</h3>
+            <p>
+              Showcases products, services, trending blogs,current deals and offers, 
+              providing users with a comprehensive shopping 
+              experience and the latest information.
+            </p>
+            <a href="https://alfadecommerce.ccbp.tech/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <p>Technologies Used :<br/> HTML,CSS,BOOTSTRAP</p>
+          </div>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btn" id="seeMoreBtn">see more</button>
+      </div>
+    </div>
+  </div>
+  <script src="./../js/functions.js" ></script>
+  <script src="./../js/navbar.js" ></script>
+</body>

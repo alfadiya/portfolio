@@ -1,0 +1,234 @@
+
+.main-heading{
+    text-align:center;
+    margin-top:70px;
+    margin-bottom:50px;
+}
+.skill-section{
+    display:grid;
+    grid-gap:50px;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+   margin-top:30px;
+}
+.sub-heading{
+    text-decoration:underline;
+    text-align:center;
+    font-size:25px;
+    margin-bottom:20px;
+}
+.technical-section  div  {
+    font-size:17px;
+}
+.technical-section div  .fa-html5{
+     color: #E34F26; 
+     font-size:23px;   
+}
+.technical-section div  .fa-css3-alt{
+    color: #1572B6;
+    font-size:23px;   
+}
+.technical-section div  .fa-js{
+    color: #F7DF1E; 
+    font-size:23px;   
+}.technical-section div  .fa-python{
+    color: #6A0D91;
+    font-size:23px;   
+}
+.technical-section div .fa-bootstrap{
+    color:#6f42c1; 
+    font-size:23px;   
+}
+.progress-bar{
+   width:100%;
+   border-radius:10px;
+   background:#959595;
+   height:10px;
+}
+.progress-bar div{
+    
+    height:10px;
+    
+    border-radius:10px;
+
+}
+.progress-bar div  span{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    background:#222; 
+    display:flex;
+    justify-content:center ;
+    color:white;
+    align-items:center;
+    float:right;
+    margin-top:-15px;
+    margin-right:-20px;   
+}
+.html{
+    background:red;
+    
+    animation:html 1s linear forwards;
+}
+@keyframes html {
+   from{
+    width:0%;
+   }
+   to{
+    width:85%;
+   }
+    
+}
+.css{
+   background: #cddc39; 
+   animation:css 1s linear forwards;
+  
+}
+@keyframes css{
+    from{
+        width:0%
+    }
+    to
+    {
+        width:75%;
+    }
+}
+.javascript{
+    background:#00bcd4;
+    animation:javascript 1s linear forwards ;  
+    
+}
+@keyframes javascript {
+    from{width:0%}
+    to{width:70%}
+}
+.python{
+    background:#ffeb3b;
+    animation:python 1s linear forwards;
+
+}
+@keyframes python{
+    from{
+        width:0%
+    }
+    to{
+        width:80%;
+    }
+}
+.bootstrap{
+    background:#9c27b0;
+    animation:bootstrap 1s linear forwards;
+       
+}
+@keyframes bootstrap {
+    from{
+        width:0%;
+    }
+    to{
+        width:85%;
+    }
+}
+.html span{
+    border:1px solid red;
+}
+.css span{
+    border:1px solid #cddc39;
+}
+.javascript span{
+    border:1px solid #00bcd4;
+}
+.python span{
+    border:1px solid #ffeb3b;
+}
+.bootstrap span{
+    border:1px solid #9c27b0;
+}
+.each-skill{
+    margin-top:40px;
+}
+.each-skill p{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.outer{
+    height:160px;
+    width:160px;
+    border-radius:50%;
+    position:relative;
+    border-radius:50%;            
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    
+}
+
+
+.percent-numeber{
+    font-weight:600;
+    color:#fff;    
+}
+circle {
+    fill:none;
+    stroke:url(#GradientColor);
+    stroke-width:20px;
+    stroke-dasharray:0;
+    stroke-dashoffset:0;
+  
+}
+.creativity{
+    animation:creativeanim 1s linear forwards;
+}
+.problem-solving{
+    animation:problemanim 1s linear forwards;
+}
+.communication{
+    animation:communicateanim 1s linear forwards;
+}
+.team-work {
+    animation:teamanim 1s linear forwards;
+}
+@keyframes creativeanim{
+    100%{
+        stroke-dashoffset:94;
+        stroke-dasharray: 472;
+    }
+}
+@keyframes problemanim{
+    100%{
+        stroke-dashoffset:120;
+        stroke-dasharray: 472;
+    }
+}
+@keyframes communicateanim{
+    100%{
+        stroke-dashoffset:72;
+        stroke-dasharray: 472;
+    }
+}
+@keyframes teamanim{
+    100%{
+        stroke-dashoffset:58;
+        stroke-dasharray: 472;
+    }
+}
+svg{
+   position:absolute;
+   bottom:0;
+   left:0;
+   right:0;
+}
+.two-skills-container{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.each-skill-item p{
+    text-align:center;
+    margin-top:20px;
+}
+.profesional-section{
+    padding-left:30px;
+}
+div .each-skill-item{
+    margin:30px;
+}

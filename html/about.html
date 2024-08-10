@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./../css/style.css">
+  <link rel="stylesheet" href="./../css/homeresponse.css">
+  <link rel="stylesheet" href="./../css/aboutresponse.css">
+  <script src="https://kit.fontawesome.com/7504e76a87.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+ <!--about section-->
+<div id="about">
+  <div class="container"> 
+      <nav>
+        <h1 class="name-heading"><span style="color:red">A</span>lfadiya <span style="color:red">N</span>oushad.</h1>
+        <ul id="sidemenu">
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./skills.html">Skills</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <i class="fas fa-xmark" id="cross-icon"></i>           
+        </ul>
+        <i class="fas fa-bars" id="bar-icon"></i>
+      </nav>
+      <div class="row">
+        <div class="about-col-1">
+            <img
+               alt="profile casual photo"
+               src="./../images/sunset-photo.jpg"
+            />
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+          <br/>
+          <p>
+             Hello! I am Alfadiya, a recent BTech graduate
+             in Information Technology from CUSAT,2024. I am 
+             a passionate learner with a keen interest in web development.
+             I excel in building responsive websites and am continuously 
+             expanding my knowledge in full-stack development through NxtWave's CCBP
+             4.0 Academy program. My journey in technology
+             is driven by a relentless desire to learn, grow, and innovate.
+             I am excited to contribute my skills to impactful projects
+              and collaborate with like-minded professionals in the tech industry. 
+          </p>
+          <div class="tab-titles">
+             <p class="tab-link active-link" onclick="displayTabDetails('experience')">Experience</p>
+             <p class="tab-link" onclick="displayTabDetails('education')">Education</p>
+             <p class="tab-link" onclick="displayTabDetails('intrests')">Intrests & Hobbies</p>
+            
+          </div>  
+          <div class="tab-content active-content" id="experience">
+               <ul>
+                 <li><span style="color:#b54769;font-size:14px">05/08/2024 - current</span><br/>Software Trainee at TechFriar Technologies,Kochi</li>
+                 <li><span style ="color:#b54769;font-size:14px">01/06/2023 - 16/06/2023</span><br/>Internship at Cusat Fablab</li>
+               </ul>
+          </div>   
+          <div class="tab-content" id="education">
+             <ul>
+               <li><span style ="color:#b54769;font-size:14px">2021 - current</span><br/>Industry Ready Certification in full-stack development</li>
+               <li><span style="color:#b54769;font-size:14px">2020 - 2024</span><br/>BTech Information Technology,CUSAT</li>
+               <li><span style ="color:#b54769;font-size:14px">2017 - 2018</span><br/>Intermediate,Providence Girls Higher Secondary School</li>
+             </ul>
+          </div> 
+          <div class="tab-content" id="intrests">
+            <ul>
+             <li><span style="color:#b54769;font-size:14px">Coding</span><br/>Passionate about developing web applications and learning new programming languages.</li>
+             <li><span style="color:#b54769;font-size:14px">Writing</span><br/>Enjoy writing technical articles and blog posts about emerging technologies.</li>
+             <li><span style="color:#b54769;font-size:14px">Travelling</span><br/>Love exploring new places and immersing myself in different cultures.</li>
+             <li><span style="color:#b54769;font-size:14px">Community Involvement</span><br/>Active in volunteering and participating in community events and initiatives.</li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+  </div>
+</div>
+<script src="./../js/functions.js"></script>
+<script src="./../js/navbar.js"></script>
+</body>  

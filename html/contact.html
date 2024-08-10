@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./../css/style.css">
+  <link rel="stylesheet" href="./../css/homeresponse.css">
+  <link rel="stylesheet" href="./../css/contactresponse.css">
+  <script src="https://kit.fontawesome.com/7504e76a87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!---contact section-->
+  <div id="contact">
+    <div class="container">
+      <nav>
+        <h1 class="name-heading"><span style="color:red">A</span>lfadiya <span style="color:red">N</span>oushad.</h1>
+        <ul id="sidemenu">
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./skills.html">Skills</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <i class="fas fa-xmark" onclick="closemenu()"></i>           
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav> 
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>alfadiyanoushad@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9048049785</p>
+          <div class="social-icon">
+          <a href="https://www.linkedin.com/in/alfadiya-noushad-6a7388201/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          </div>
+          <a href="./../images/resume.pdf" class="btn btn2" download>Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="name" placeholder="Your Name" required/>
+            <input type="email" name="email" placeholder="Your Email" required/>
+            <textarea name="message" rows="6" placeholder="Your Message" ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copy-right">
+       <p>© 2024 Alfadiya Noushad. All rights reserved.</p>
+    </div>
+  </div>
+<script src="./../js/functions.js"></script>
+<script src="./../js/navbar.js"></script>
+</body>

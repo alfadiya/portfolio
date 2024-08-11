@@ -24,15 +24,24 @@
         description:"A web app that generates random text for typing, tracks the time taken, and shows results with options to submit or reset.",
         link:"https://typetest9048.ccbp.tech/",
       
-      },
-      {
-        image:"./../images/users.webp",
-        imageText:"Users Image",
-        heading:"User Details Manager",
-        description:"A web app that allows posting and updating user details using the public users API via Go REST Console.",
-        link:"https://restconsole9048.ccbp.tech/",
-          
-      },
+     },
+     {
+      image:"./../images/cvss.webp",
+      imageText:"cvss image",
+      heading:"CVE database application",
+      description:"Developed a web app for managing CVE records with capabilities for adding, editing, deleting, sorting, and filtering by various criteria.",
+      link:"https://cvedatabase12.ccbp.tech/",
+        
+    },
+     {
+      image:"./../images/users.webp",
+      imageText:"users Image",
+      heading:"User Details Manager",
+      description:"A web app that allows posting and updating user details using the public users API via Go REST Console.",
+      link:"https://restconsole9048.ccbp.tech/",
+    
+    },
+     
       {
         image:"./../images/bookmarks.webp",
         imageText:"bookmark image",
